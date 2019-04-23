@@ -13,3 +13,7 @@ gem "rubocop", "~> 0.67.2"
 gem "simplecov", "~> 0.16.1"
 
 gem "simplecov-console", "~> 0.4.2"
+
+gem "sinatra", "~> 2.0"
+
+gem "capybara", "~> 3.18"
