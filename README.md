@@ -8,4 +8,4 @@ I would like to see a list of bookmarks`
 
 ## Domain Model
 
-(./domain_model.png)
+![Domain model](https://github.com/jo-quin/bookmark_manager/blob/master/domain_model.png)
