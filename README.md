@@ -22,7 +22,7 @@ $ psql postgres #connects to postgres server
 ```
 
 Create the `bookmark_manager` database:
-```
+```bash
 postgres=# CREATE DATABASE bookmark_manager;
 
 # Connect to the new database with:
