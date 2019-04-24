@@ -17,3 +17,5 @@ gem "simplecov-console", "~> 0.4.2"
 gem "sinatra", "~> 2.0"
 
 gem "capybara", "~> 3.18"
+
+gem "pg", "~> 1.1"

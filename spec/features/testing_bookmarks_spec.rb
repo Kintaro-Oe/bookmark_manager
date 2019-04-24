@@ -2,8 +2,8 @@ feature 'Testing bookmarks' do
   scenario 'view bookmarks' do
     visit '/bookmarks'
     expect(page).to have_content 'Your bookmarks:'
-    expect(page).to have_content 'github.com'
-    expect(page).to have_content 'gmail.com'
-    expect(page).to have_content 'google.co.uk'
+    expect(page).to have_content 'http://www.makersacademy.com'
+    expect(page).to have_content 'http://www.destroyallsoftware.com'
+    expect(page).to have_content 'http://www.google.com'
   end
 end
