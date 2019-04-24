@@ -23,12 +23,12 @@ $ psql postgres #connects to postgres server
 
 Create the `bookmark_manager` database:
 ```
-CREATE DATABASE bookmark_manager;
+postgres=# CREATE DATABASE bookmark_manager;
 
 # Connect to the new database with:
-\c bookmark_manager
+postgres=# \c bookmark_manager
 
 # To setup the appropriate tables run the SQL script in `db/migrations` folder by using the command below:
 Note that you should edit the ~ in the path to match your cloned location.
-\i ~/bookmark_manager/db/migrations/01_create_bookmarks_table.sql
+bookmark_manager=# \i ~/bookmark_manager/db/migrations/01_create_bookmarks_table.sql
 ```
