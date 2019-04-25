@@ -5,6 +5,7 @@ require File.join(File.dirname(__FILE__),'..', 'app.rb')
 require 'capybara'
 require 'capybara/rspec'
 require 'rspec'
+require_relative 'rspec_methods'
 
 Capybara.app = BookmarkManager
 
@@ -115,7 +116,7 @@ SimpleCov.start
 RSpec.configure do |config|
   config.after(:suite) do
     puts
-    puts "[31mAre you running rubocop? Just run: rubocop[0m"
-    puts "[31mAlso remember to commit when passing a new test![0m"
+    puts "[33mAre you running rubocop? Just run: rubocop[0m"
+    puts "[33mAlso remember to commit when passing a new test![0m"
   end
 end
