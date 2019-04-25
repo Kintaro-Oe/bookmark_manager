@@ -35,11 +35,11 @@ In command line, type the following:
 4. `\c bookmark_manager;` # connect to the bookmark_manager database
 5. `Access 01_create_bookmarks_table.sql` located within db/migrations/. Run the query within both databases
 
-```bash
-# To setup the appropriate tables run the SQL script in `db/migrations` folder by using the command below:
-Note that you should edit the ~ in the path to match your cloned location.
-bookmark_manager=# \i ~/bookmark_manager/db/migrations/01_create_bookmarks_table.sql
-```
+
+To setup the appropriate tables run the SQL script in `db/migrations` folder by running the following command in terminal:
+`\i ~/bookmark_manager/db/migrations/01_create_bookmarks_table.sql`
+Note that you should edit the `~` in the path to match your cloned location.
+
 
 ## How to launch the server for the app
 
@@ -48,4 +48,4 @@ Enter `CTRL+C` to close the server
 
 ## How to view the app
 
-Enter url localhost:2345/bookmarks in your browser to view the app
+Enter the url `localhost:3456/bookmarks` in your browser to view the app
