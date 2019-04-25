@@ -1,5 +1,6 @@
 feature 'Testing bookmarks' do
   scenario 'view bookmarks' do
+    populate_table
     visit '/bookmarks'
     expect(page).to have_content 'Your bookmarks:'
     expect(page).to have_content 'http://www.makersacademy.com'
