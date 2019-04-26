@@ -8,7 +8,7 @@ So that I can quickly go to the web sites I regularly visit
 I would like to see a list of bookmarks
 
 As a user
-So that I can keep track of new websites
+So that I can keep track of useful new websites
 I would like to add new bookmarks
 ```
 
